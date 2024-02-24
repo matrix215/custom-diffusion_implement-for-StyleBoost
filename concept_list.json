@@ -1,0 +1,14 @@
+[
+    {
+        "instance_prompt":     "<new1> style",
+        "class_prompt":         "style",
+        "instance_data_dir":    "./data/anime-p",
+        "class_data_dir":       "./real_reg/animation_style"
+    },
+    {
+        "instance_prompt":     "<new2> style",
+        "class_prompt":         "style",
+        "instance_data_dir":    "./data/anime-b",
+        "class_data_dir":       "./real_reg/animation_style"
+    }
+]
