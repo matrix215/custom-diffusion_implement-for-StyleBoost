@@ -27,3 +27,15 @@ https://github.com/adobe-research/custom-diffusion
     ```bash
     python cmd_multi.py --iter 10
     ```
+
+# Acknowledgement
+This repository is based on the following repositories:
+```bash
+@inproceedings{kumari2023multi,
+  title={Multi-concept customization of text-to-image diffusion},
+  author={Kumari, Nupur and Zhang, Bingliang and Zhang, Richard and Shechtman, Eli and Zhu, Jun-Yan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1931--1941},
+  year={2023}
+}
+```
