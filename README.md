@@ -8,18 +8,20 @@ The `train_custom_diffusion.py` script shows how to implement the training proce
 
 # Requirements
 
-- Go to custom-diffusion Official page and Follow the preferences
+https://github.com/adobe-research/custom-diffusion
 
-- I did implement at A5000 GPU, But it was really cool environment, Because the custom diffusion model is a lighter model because only the U-Net part is fine-turning during the Stable Diffusion's diffusion process. 
+- Go to the custom-diffusion Official page and Follow the preferences
+
+- I did implement at A5000 GPU, But it was a cool environment Because the custom diffusion model is lighter because only the U-Net part is fine-turning during the Stable Diffusion's diffusion process. 
 
 # How to start
 ## Official pages are not optimized for multiple draws. Therefore, once the weights are stored, a code that draws a large number of them separately based on the prompts in the txt file was created.
-- Frist follow all of custom-diffusion Offical page
+- First follow all of custom-diffusion Offical page
 - second, '''bash training.ipynb'''
 - Third, then we can save the weight file
 - cmd_multi.py file can start the multiple draws
   - cmd_multi.py can manipulate the num of samples
-  - iteration also can mainpulate
+  - iteration also can manipulate
   - '''bash
   - python cmd_multi.py --iter 10
   '''
