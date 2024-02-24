@@ -17,11 +17,11 @@ https://github.com/adobe-research/custom-diffusion
 # How to start
 ## Official pages are not optimized for multiple draws. Therefore, once the weights are stored, a code that draws a large number of them separately based on the prompts in the txt file was created.
 - First follow all of custom-diffusion Offical page
-- second, '''bash training.ipynb'''
+- second, ```bash training.ipynb```
 - Third, then we can save the weight file
 - cmd_multi.py file can start the multiple draws
-  - cmd_multi.py can manipulate the num of samples
+  - cmd_multi.py can manipulate the number of samples
   - iteration also can manipulate
-  - '''bash
-  - python cmd_multi.py --iter 10
-  '''
+    ```bash
+    python cmd_multi.py --iter 10
+    ```
