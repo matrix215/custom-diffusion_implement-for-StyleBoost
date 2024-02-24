@@ -15,7 +15,9 @@ https://github.com/adobe-research/custom-diffusion
 - I did implement at A5000 GPU, But it was a cool environment Because the custom diffusion model is lighter because only the U-Net part is fine-turning during the Stable Diffusion's diffusion process. 
 
 # How to start
-## Official pages are not optimized for multiple draws. Therefore, once the weights are stored, a code that draws a large number of them separately based on the prompts in the txt file was created.
+
+### Official pages are not optimized for multiple draws. Therefore, once the weights are stored, a code that draws a large number of them separately based on the prompts in the txt file was created.
+
 - First follow all of custom-diffusion Offical page
 - second, ```bash training.ipynb```
 - Third, then we can save the weight file
